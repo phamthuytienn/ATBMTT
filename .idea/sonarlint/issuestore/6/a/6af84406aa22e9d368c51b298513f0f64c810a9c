@@ -1,0 +1,14 @@
+
+`	java:S112m"FDefine and throw a dedicated exception instead of using a generic one.(¼ÿ¾¹ÿÿÿÿÿ
+C
+java:S1604P"(Make this anonymous inner class a lambda(Æµ¿ûùÿÿÿÿ
+H
+java:S1199$"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ
+w
+java:S1450w"\Remove the "getFileButton" field and declare it as a local variable in the relevant methods.(äß£—øÿÿÿÿ
+k
+java:S1450v"URemove the "label1" field and declare it as a local variable in the relevant methods.(ÛŠ’Á
+p
+java:S1450x"URemove the "label2" field and declare it as a local variable in the relevant methods.(äÈ„Áûÿÿÿÿ
+B
+java:S1125e"'Remove the unnecessary boolean literal.(ÿÞèÆüÿÿÿÿ

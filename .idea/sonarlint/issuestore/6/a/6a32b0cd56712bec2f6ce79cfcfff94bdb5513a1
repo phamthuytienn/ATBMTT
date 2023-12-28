@@ -1,0 +1,54 @@
+
+>
+java:S16047"(Make this anonymous inner class a lambda(óÇš
+>
+java:S1604D"(Make this anonymous inner class a lambda(¶Ì¦ð
+>
+java:S1604P"(Make this anonymous inner class a lambda(’Ì–™
+C
+java:S1604d"(Make this anonymous inner class a lambda(¶ßÄ„úÿÿÿÿ
+H
+java:S1199%"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ
+H
+java:S1199*"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ
+H
+java:S1199r"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ
+H
+java:S1199."-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ
+H
+java:S11991"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ
+H
+java:S1199`"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ
+}
+java:S1450Š"aRemove the "changeNameMenuItem" field and declare it as a local variable in the relevant methods.(”ÞÜ½øÿÿÿÿ
+w
+java:S1450‹"`Remove the "changePINMenuItem" field and declare it as a local variable in the relevant methods.(âßÌ
+|
+java:S1450Ž"eRemove the "createKeyStoreMenuItem" field and declare it as a local variable in the relevant methods.(Ã¡Âõ
+
+java:S1450Œ"cRemove the "digitalSignatureMenu" field and declare it as a local variable in the relevant methods.(™¬ùÿÿÿÿ
+†
+java:S1450"jRemove the "digitalSignaturePDFMenuItem" field and declare it as a local variable in the relevant methods.(é©Ÿ¹úÿÿÿÿ
+q
+java:S1450ˆ"ZRemove the "mainMenuBar" field and declare it as a local variable in the relevant methods.(”¦ ‰
+o
+java:S1450‡"XRemove the "menuPanel" field and declare it as a local variable in the relevant methods.(ë‡Ù„
+r
+java:S1450‰"[Remove the "settingJMenu" field and declare it as a local variable in the relevant methods.(°ÿ›§
+z
+java:S1450"dRemove the "splitKeystoreFileMenu" field and declare it as a local variable in the relevant methods.(ÞÉ¢y
+p
+java:S1450"YRemove the "verifyFile" field and declare it as a local variable in the relevant methods.(‰æÙ
+T
+java:S1117">Rename "mainFrame" which hides the field declared at line 134.(»²µ”
+P	java:S125"<This block of commented-out lines of code should be removed.(áÃ¯E
+_
+java:S3252z"IUse static access with "javax.swing.WindowConstants" for "EXIT_ON_CLOSE".(Â÷‚À
+D
+java:S1068†"-Remove this unused "mainFrame" private field.(§èõÁ
+G
+java:S1068‰"0Remove this unused "settingJMenu" private field.(°ÿ›§
+R
+java:S1068Š"6Remove this unused "changeNameMenuItem" private field.(”ÞÜ½øÿÿÿÿ
+L
+java:S1068‹"5Remove this unused "changePINMenuItem" private field.(âßÌ

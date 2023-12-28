@@ -1,0 +1,46 @@
+
+h	java:S112¯"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8ØíÿåÈ1
+d
+java:S2095j"GUse try-with-resources or close this "PdfReader" in a "finally" clause.(ŞÅïİ8ˆîÿåÈ1
+o
+java:S2095~"MUse try-with-resources or close this "FileInputStream" in a "finally" clause.(ï‡àıÿÿÿÿ8ˆîÿåÈ1
+p
+java:S2095–"MUse try-with-resources or close this "FileInputStream" in a "finally" clause.(ï‡àıÿÿÿÿ8ˆîÿåÈ1
+W	java:S107<"<Method has 8 parameters, which is greater than 7 authorized.(İ¾Õ8ŒîÿåÈ1
+]	java:S107d"<Method has 9 parameters, which is greater than 7 authorized.(’î®şÿÿÿÿ8ŒîÿåÈ1
+S
+java:S2696 "6Make the enclosing method "static" or remove this set.(çô…¸8ã¤æÈ1
+R
+java:S2209 "5Change this instance-reference to a static reference.(çô…¸8å¤æÈ1
+N
+java:S1874@",Remove this use of "exec"; it is deprecated.(¹—øÿÿÿÿ8’îÿåÈ1
+L	java:S106["+Replace this use of System.out by a logger.(ñ—¸½úÿÿÿÿ8•îÿåÈ1
+e
+java:S1172f"HRemove these unused method parameters "subfilter", "reason", "location".(Ó¬ºñ8–îÿåÈ1
+H	java:S106ƒ"+Replace this use of System.out by a logger.(Àû‰ƒ8¨îÿåÈ1
+H	java:S106„"+Replace this use of System.out by a logger.(ú”µ—8¨îÿåÈ1
+H	java:S106…"+Replace this use of System.out by a logger.(Õõ¶Ñ8¨îÿåÈ1
+H	java:S106ˆ"+Replace this use of System.out by a logger.(Ë†®8©îÿåÈ1
+M	java:S106‰"+Replace this use of System.out by a logger.(ôÕÑ×üÿÿÿÿ8©îÿåÈ1
+M	java:S106"+Replace this use of System.out by a logger.(ªÓ¼áşÿÿÿÿ8©îÿåÈ1
+H	java:S106›"+Replace this use of System.out by a logger.(Àû‰ƒ8¬îÿåÈ1
+H	java:S106œ"+Replace this use of System.out by a logger.(ú”µ—8¬îÿåÈ1
+H	java:S106"+Replace this use of System.out by a logger.(Õõ¶Ñ8¬îÿåÈ1
+H	java:S106Ÿ"+Replace this use of System.out by a logger.(Ë†®8­îÿåÈ1
+M	java:S106 "+Replace this use of System.out by a logger.(ôÕÑ×üÿÿÿÿ8®îÿåÈ1
+M	java:S106¤"+Replace this use of System.out by a logger.(ªÓ¼áşÿÿÿÿ8®îÿåÈ1
+M	java:S106Ö"+Replace this use of System.out by a logger.(Ûøò”ùÿÿÿÿ8´îÿåÈ1
+M	java:S106ñ"+Replace this use of System.out by a logger.(ã±Ã”ÿÿÿÿÿ8·îÿåÈ1
+Š
+java:S1130û"lRemove the declaration of thrown exception 'java.io.IOException', as it cannot be thrown from method's body.(Ë²¨î8¸îÿåÈ1
+e
+java:S1874ş"BRemove this use of "X509V3CertificateGenerator"; it is deprecated.(‰¡ÜÇşÿÿÿÿ8¹îÿåÈ1
+e
+java:S1874ş"BRemove this use of "X509V3CertificateGenerator"; it is deprecated.(‰¡ÜÇşÿÿÿÿ8»îÿåÈ1
+¡
+java:S1130"~Remove the declaration of thrown exception 'java.security.NoSuchProviderException', as it cannot be thrown from method's body.(•‡–’ùÿÿÿÿ8½îÿåÈ1
+S
+java:S2209£"5Change this instance-reference to a static reference.(¬›Î“8ÁîÿåÈ1
+S
+java:S2209¤"5Change this instance-reference to a static reference.(ôÎôö8ÁîÿåÈ1
+^	java:S125¦"<This block of commented-out lines of code should be removed.(§¥ãĞüÿÿÿÿ8ÂîÿåÈ1

@@ -1,0 +1,42 @@
+
+k	java:S117="QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‚§•æûÿÿÿÿ
+>
+java:S1604j"(Make this anonymous inner class a lambda(ÛÊô‚
+?
+java:S1604"(Make this anonymous inner class a lambda(®™®’
+D
+java:S1604—"(Make this anonymous inner class a lambda(ÖÒÊ§ûÿÿÿÿ
+D
+java:S1604¡"(Make this anonymous inner class a lambda(ºÆæÑøÿÿÿÿ
+3
+java:S1643³"Use a StringBuilder instead.(±ßÂş
+o
+java:S1104"TMake billPath a static final constant or non-public and provide accessors if needed.(·Î­üÿÿÿÿ
+n
+java:S1104"XMake keyStorePath a static final constant or non-public and provide accessors if needed.(†ùÄã
+i
+java:S1104"SMake isCheck a static final constant or non-public and provide accessors if needed.(ç†Œ´
+H
+java:S1199#"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ
+a
+java:S2583»"CChange this condition so that it does not always evaluate to "true"(ş…Ú±8é÷¤Ë1
+v	java:S116Í"`Rename this field "DigitalSignaturePanel" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¦óéÜ
+s	java:S116Ğ"^Rename this field "FileSignedPathLabel" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ˆÌ§E
+v
+java:S1450Ï"_Remove the "chooseFileButton" field and declare it as a local variable in the relevant methods.(üéÙ
+z
+java:S1450Î"^Remove the "chooseFileLabel" field and declare it as a local variable in the relevant methods.(ÉË€›şÿÿÿÿ
+
+java:S1450Ó"cRemove the "chooseKeyStoreButton" field and declare it as a local variable in the relevant methods.(Æö÷–ıÿÿÿÿ
+z
+java:S1450Ò"cRemove the "chooseSignatureLabel" field and declare it as a local variable in the relevant methods.(Ûôƒ
+v
+java:S1450Õ"_Remove the "removeInfoButton" field and declare it as a local variable in the relevant methods.(¸›–Ê
+o
+java:S1450Ñ"YRemove the "signButton" field and declare it as a local variable in the relevant methods.(Ş²¥ 
+U
+java:S1481¥"2Remove this unused "inputPassword" local variable.(ç„ÀŒúÿÿÿÿ8Ëé÷¤Ë1
+Y	java:S125¸"<This block of commented-out lines of code should be removed.(ŒÃ€Í8Îé÷¤Ë1
+Y	java:S125º"<This block of commented-out lines of code should be removed.(¤†€ä8Ïé÷¤Ë1
+>
+java:S1125»"'Remove the unnecessary boolean literal.(ş…Ú±

@@ -1,0 +1,57 @@
+
+c
+java:S1192f"NUse already-defined constant 'KEYSTORE' instead of duplicating its value here.(©Ñæ
+_
+java:S1192"IDefine a constant instead of duplicating this literal "password" 3 times.(à¢¡‚
+]
+java:S2095@"GUse try-with-resources or close this "PdfReader" in a "finally" clause.(ŞÅïİ
+i
+java:S2095›"MUse try-with-resources or close this "FileInputStream" in a "finally" clause.(ï‡àıÿÿÿÿ
+3
+java:S2386"Make this member "protected".(à¢¡‚
+V	java:S107:"<Method has 9 parameters, which is greater than 7 authorized.(’î®şÿÿÿÿ
+P	java:S107q"<Method has 8 parameters, which is greater than 7 authorized.(İ¾Õ
+Q	java:S125"<This block of commented-out lines of code should be removed.(Ã°À
+V	java:S125"<This block of commented-out lines of code should be removed.(í¨ãúÿÿÿÿ
+Q
+java:S6437*"6Revoke and change this password, as it is compromised.(Ûü–ßÿÿÿÿÿ
+D
+java:S1905+")Remove this unnecessary cast to "String".(“àÿ›üÿÿÿÿ
+L
+java:S6437-"6Revoke and change this password, as it is compromised.(É‹¶
+^
+java:S1172<"HRemove these unused method parameters "subfilter", "reason", "location".(Ó¬ºñ
+Q
+java:S6437e"6Revoke and change this password, as it is compromised.(¶Ù¤şÿÿÿÿ
+L
+java:S6437g"6Revoke and change this password, as it is compromised.(––š‚
+G
+java:S1874u",Remove this use of "exec"; it is deprecated.(¹—øÿÿÿÿ
+F	java:S106"+Replace this use of System.out by a logger.(ñ—¸½úÿÿÿÿ
+A	java:S106 "+Replace this use of System.out by a logger.(Àû‰ƒ
+A	java:S106¡"+Replace this use of System.out by a logger.(ú”µ—
+A	java:S106¢"+Replace this use of System.out by a logger.(Õõ¶Ñ
+A	java:S106¥"+Replace this use of System.out by a logger.(Ë†®
+F	java:S106¦"+Replace this use of System.out by a logger.(ôÕÑ×üÿÿÿÿ
+F	java:S106ª"+Replace this use of System.out by a logger.(ªÓ¼áşÿÿÿÿ
+R
+java:S6437²"6Revoke and change this password, as it is compromised.(Ûü–ßÿÿÿÿÿ
+E
+java:S1905³")Remove this unnecessary cast to "String".(“àÿ›üÿÿÿÿ
+W	java:S125´"<This block of commented-out lines of code should be removed.(ş²Èíøÿÿÿÿ
+A	java:S106¹"+Replace this use of System.out by a logger.(ã¢„ş
+H
+java:S1874Á",Remove this use of "exec"; it is deprecated.(¹—øÿÿÿÿ
+F	java:S106Ò"+Replace this use of System.out by a logger.(ñ—¸½úÿÿÿÿ
+R	java:S125à"<This block of commented-out lines of code should be removed.(öêàş
+S
+java:S1128">Remove this unused import 'com.itextpdf.kernel.geom.PageSize'.(† ı:
+T
+java:S1128">Remove this unused import 'com.itextpdf.kernel.pdf.PdfWriter'.(’ìÿä
+T
+java:S1128	"9Remove this unused import 'com.itextpdf.layout.Document'.(®Éğîùÿÿÿÿ
+]
+java:S1128
+"BRemove this unused import 'com.itextpdf.layout.element.Paragraph'.(©ıÛúÿÿÿÿ
+X
+java:S1128"=Remove this unused import 'com.itextpdf.layout.element.Text'.(û«âÜûÿÿÿÿ

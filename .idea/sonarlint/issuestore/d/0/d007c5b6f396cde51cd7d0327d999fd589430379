@@ -1,0 +1,17 @@
+
+H
+java:S1199"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ
+{
+java:S1450e"`Remove the "applyNewPINButton" field and declare it as a local variable in the relevant methods.(¡àøãúÿÿÿÿ
+n
+java:S1450a"ZRemove the "newPINLabel" field and declare it as a local variable in the relevant methods.(À¥=
+y
+java:S1450b"^Remove the "newPINTextField" field and declare it as a local variable in the relevant methods.(—óÎıÿÿÿÿ
+p
+java:S1450_"ZRemove the "oldPINLabel" field and declare it as a local variable in the relevant methods.(ØÌŸñ
+y
+java:S1450`"^Remove the "oldPINTextField" field and declare it as a local variable in the relevant methods.(ÁÅÖºüÿÿÿÿ
+v
+java:S1450c"`Remove the "retypeNewPINLabel" field and declare it as a local variable in the relevant methods.(Á£äö
+z
+java:S1450d"dRemove the "retypeNewPINTextField" field and declare it as a local variable in the relevant methods.(ª‰ø

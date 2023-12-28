@@ -1,0 +1,74 @@
+
+f
+java:S1192"IDefine a constant instead of duplicating this literal "password" 6 times.(à¢¡‚8‰ÈˆÉ1
+p
+java:S2095¢"MUse try-with-resources or close this "FileInputStream" in a "finally" clause.(ï‡àıÿÿÿÿ8ÖÈˆÉ1
+p
+java:S2095€"MUse try-with-resources or close this "FileInputStream" in a "finally" clause.(à‘›‰üÿÿÿÿ8ÖÈˆÉ1
+d
+java:S2095G"GUse try-with-resources or close this "PdfReader" in a "finally" clause.(ŞÅïİ8ÖÈˆÉ1
+:
+java:S2386"Make this member "protected".(à¢¡‚8ØÈˆÉ1
+]	java:S107A"<Method has 9 parameters, which is greater than 7 authorized.(’î®şÿÿÿÿ8ÚÈˆÉ1
+W	java:S107x"<Method has 8 parameters, which is greater than 7 authorized.(İ¾Õ8ÚÈˆÉ1
+X	java:S125$"<This block of commented-out lines of code should be removed.(Ã°À8ÜÈˆÉ1
+]	java:S125&"<This block of commented-out lines of code should be removed.(í¨ãúÿÿÿÿ8İÈˆÉ1
+X
+java:S64371"6Revoke and change this password, as it is compromised.(Ûü–ßÿÿÿÿÿ8ŞÈˆÉ1
+K
+java:S19052")Remove this unnecessary cast to "String".(“àÿ›üÿÿÿÿ8ßÈˆÉ1
+S
+java:S64374"6Revoke and change this password, as it is compromised.(É‹¶8àÈˆÉ1
+e
+java:S1172C"HRemove these unused method parameters "subfilter", "reason", "location".(Ó¬ºñ8âÈˆÉ1
+X
+java:S6437l"6Revoke and change this password, as it is compromised.(¶Ù¤şÿÿÿÿ8ëÈˆÉ1
+S
+java:S6437n"6Revoke and change this password, as it is compromised.(––š‚8ìÈˆÉ1
+N
+java:S1874|",Remove this use of "exec"; it is deprecated.(¹—øÿÿÿÿ8îÈˆÉ1
+M	java:S106—"+Replace this use of System.out by a logger.(ñ—¸½úÿÿÿÿ8ñÈˆÉ1
+H	java:S106§"+Replace this use of System.out by a logger.(Àû‰ƒ8ûÈˆÉ1
+H	java:S106¨"+Replace this use of System.out by a logger.(ú”µ—8ûÈˆÉ1
+H	java:S106©"+Replace this use of System.out by a logger.(Õõ¶Ñ8ûÈˆÉ1
+H	java:S106¬"+Replace this use of System.out by a logger.(Ë†®8üÈˆÉ1
+M	java:S106­"+Replace this use of System.out by a logger.(ôÕÑ×üÿÿÿÿ8üÈˆÉ1
+M	java:S106±"+Replace this use of System.out by a logger.(ªÓ¼áşÿÿÿÿ8ıÈˆÉ1
+Y
+java:S6437¹"6Revoke and change this password, as it is compromised.(Ûü–ßÿÿÿÿÿ8şÈˆÉ1
+L
+java:S1905º")Remove this unnecessary cast to "String".(“àÿ›üÿÿÿÿ8şÈˆÉ1
+^	java:S125»"<This block of commented-out lines of code should be removed.(ş²Èíøÿÿÿÿ8ÿÈˆÉ1
+H	java:S106À"+Replace this use of System.out by a logger.(ã¢„ş8ÿÈˆÉ1
+O
+java:S1874È",Remove this use of "exec"; it is deprecated.(¹—øÿÿÿÿ8ÉˆÉ1
+M	java:S106Ù"+Replace this use of System.out by a logger.(ñ—¸½úÿÿÿÿ8‚ÉˆÉ1
+M	java:S106å"+Replace this use of System.err by a logger.(‡Ù„ıÿÿÿÿ8ƒÉˆÉ1
+M	java:S106î"+Replace this use of System.out by a logger.(Á‚ıÿÿÿÿ8†ÉˆÉ1
+M	java:S106³"+Replace this use of System.out by a logger.(ã±Ã”ÿÿÿÿÿ8ÉˆÉ1
+Š
+java:S1130½"lRemove the declaration of thrown exception 'java.io.IOException', as it cannot be thrown from method's body.(Ë²¨î8ÉˆÉ1
+e
+java:S1874À"BRemove this use of "X509V3CertificateGenerator"; it is deprecated.(‰¡ÜÇşÿÿÿÿ8ÉˆÉ1
+e
+java:S1874À"BRemove this use of "X509V3CertificateGenerator"; it is deprecated.(‰¡ÜÇşÿÿÿÿ8’ÉˆÉ1
+¡
+java:S1130Ğ"~Remove the declaration of thrown exception 'java.security.NoSuchProviderException', as it cannot be thrown from method's body.(•‡–’ùÿÿÿÿ8•ÉˆÉ1
+H	java:S106ß"+Replace this use of System.out by a logger.(Àû‰ƒ8—ÉˆÉ1
+H	java:S106à"+Replace this use of System.out by a logger.(ú”µ—8—ÉˆÉ1
+H	java:S106á"+Replace this use of System.out by a logger.(Õõ¶Ñ8—ÉˆÉ1
+H	java:S106å"+Replace this use of System.out by a logger.(Ë†®8˜ÉˆÉ1
+M	java:S106æ"+Replace this use of System.out by a logger.(ôÕÑ×üÿÿÿÿ8˜ÉˆÉ1
+H	java:S106è"+Replace this use of System.out by a logger.(ßÂ¤›8™ÉˆÉ1
+H	java:S106ê"+Replace this use of System.out by a logger.(åÙŸ8™ÉˆÉ1
+M	java:S106î"+Replace this use of System.out by a logger.(ªÓ¼áşÿÿÿÿ8™ÉˆÉ1
+X
+java:S2209€"5Change this instance-reference to a static reference.(à‘›‰üÿÿÿÿ8›ÉˆÉ1
+Y	java:S125ü"<This block of commented-out lines of code should be removed.(öêàş8›ÉˆÉ1
+Z
+java:S1128">Remove this unused import 'com.itextpdf.kernel.geom.PageSize'.(† ı:8œÉˆÉ1
+d
+java:S1128
+"BRemove this unused import 'com.itextpdf.layout.element.Paragraph'.(©ıÛúÿÿÿÿ8œÉˆÉ1
+_
+java:S1128"=Remove this unused import 'com.itextpdf.layout.element.Text'.(û«âÜûÿÿÿÿ8œÉˆÉ1

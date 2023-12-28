@@ -1,0 +1,44 @@
+
+p
+java:S2095¦"MUse try-with-resources or close this "FileInputStream" in a "finally" clause.(ï‡àıÿÿÿÿ8ÒüüÊ1
+e
+java:S2095‚"GUse try-with-resources or close this "PdfReader" in a "finally" clause.(ŞÅïİ8ÒüüÊ1
+W	java:S107?"<Method has 8 parameters, which is greater than 7 authorized.(İ¾Õ8—ÒüüÊ1
+]	java:S107|"<Method has 9 parameters, which is greater than 7 authorized.(’î®şÿÿÿÿ8˜ÒüüÊ1
+V	java:S125"<This block of commented-out lines of code should be removed.(ãšü¬øÿÿÿÿ
+P	java:S125"<This block of commented-out lines of code should be removed.(íÄŸS
+V	java:S125%"<This block of commented-out lines of code should be removed.(äÆòÏúÿÿÿÿ
+N
+java:S1874C",Remove this use of "exec"; it is deprecated.(¹—øÿÿÿÿ8§ÒüüÊ1
+L	java:S106^"+Replace this use of System.out by a logger.(ñ—¸½úÿÿÿÿ8­ÒüüÊ1
+K
+java:S1905n")Remove this unnecessary cast to "String".(“àÿ›üÿÿÿÿ8³ÒüüÊ1
+e
+java:S1172~"HRemove these unused method parameters "subfilter", "reason", "location".(Ó¬ºñ8¸ÒüüÊ1
+C
+java:S1125«"'Remove the unnecessary boolean literal.(ãñ”ùûÿÿÿÿ
+J
+java:S1125­"'Remove the unnecessary boolean literal.(»Õ£Ãûÿÿÿÿ8ÙÒüüÊ1
+Y	java:S125²"<This block of commented-out lines of code should be removed.(¶¯ÄÇ8ÛÒüüÊ1
+H	java:S106Æ"+Replace this use of System.out by a logger.(Ğ¦÷8âÒüüÊ1
+O
+java:S1874É",Remove this use of "exec"; it is deprecated.(¹—øÿÿÿÿ8ãÒüüÊ1
+M	java:S106×"+Replace this use of System.out by a logger.(ñ—¸½úÿÿÿÿ8çÒüüÊ1
+_
+java:S1854ä"BRemove this useless assignment to local variable "billSignedPath".(˜ô¥8êÒüüÊ1
+P
+java:S1481ä"3Remove this unused "billSignedPath" local variable.(˜ô¥8ìÒüüÊ1
+Y	java:S125é"<This block of commented-out lines of code should be removed.(Õ›™8íÒüüÊ1
+Z
+java:S1128">Remove this unused import 'com.itextpdf.kernel.geom.PageSize'.(† ı:8¿€ıÊ1
+[
+java:S1128">Remove this unused import 'com.itextpdf.kernel.pdf.PdfWriter'.(’ìÿä8¿€ıÊ1
+[
+java:S1128	"9Remove this unused import 'com.itextpdf.layout.Document'.(®Éğîùÿÿÿÿ8À€ıÊ1
+d
+java:S1128
+"BRemove this unused import 'com.itextpdf.layout.element.Paragraph'.(©ıÛúÿÿÿÿ8À€ıÊ1
+_
+java:S1128"=Remove this unused import 'com.itextpdf.layout.element.Text'.(û«âÜûÿÿÿÿ8À€ıÊ1
+f
+java:S1128"DRemove this unused import 'java.security.cert.CertificateException'.(èÙ¿ùÿÿÿÿ8À€ıÊ1

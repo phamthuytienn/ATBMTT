@@ -1,0 +1,20 @@
+
+g	java:S112b"FDefine and throw a dedicated exception instead of using a generic one.(¼ÿ¾¹ÿÿÿÿÿ8ßÓêĞË1
+E
+java:S1604<"(Make this anonymous inner class a lambda(ÛÊô‚8±¦êĞË1
+J
+java:S1604G"(Make this anonymous inner class a lambda(’äå´ıÿÿÿÿ8±¦êĞË1
+O
+java:S1199-"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ8²¦êĞË1
+‚
+java:S1450"`Remove the "applyNewPINButton" field and declare it as a local variable in the relevant methods.(¡àøãúÿÿÿÿ8Ö¦êĞË1
+
+java:S1450"_Remove the "chooseFileButton" field and declare it as a local variable in the relevant methods.(’¬»üÿÿÿÿ8Ö¦êĞË1
+u
+java:S1450"ZRemove the "newPINLabel" field and declare it as a local variable in the relevant methods.(À¥=8Ö¦êĞË1
+w
+java:S1450"ZRemove the "oldPINLabel" field and declare it as a local variable in the relevant methods.(ØÌŸñ8×¦êĞË1
+}
+java:S1450"`Remove the "retypeNewPINLabel" field and declare it as a local variable in the relevant methods.(Á£äö8×¦êĞË1
+t
+java:S3776 "RRefactor this method to reduce its Cognitive Complexity from 39 to the 15 allowed.(ü·úÿÿÿÿ8Ú¦êĞË1

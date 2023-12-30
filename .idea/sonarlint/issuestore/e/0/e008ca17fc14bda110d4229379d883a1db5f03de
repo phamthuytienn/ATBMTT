@@ -1,0 +1,43 @@
+
+b	java:S112."FDefine and throw a dedicated exception instead of using a generic one.(©ìÉ8±ŒÈÍË1
+h	java:S112‰"FDefine and throw a dedicated exception instead of using a generic one.(‰«ú…ùÿÿÿÿ8ÛäÉÍË1
+g
+java:S1192{"JDefine a constant instead of duplicating this literal "shopphone" 4 times.(ùôª¯8æäÉÍË1
+i
+java:S1192w"GDefine a constant instead of duplicating this literal "PKCS12" 4 times.(Ñ•±Éûÿÿÿÿ8íäÉÍË1
+Š
+java:S1488€"gImmediately return this expression instead of assigning it to the temporary variable "andLoadKeyStore".(ñÅš¼úÿÿÿÿ8…“ÕÍË1
+L	java:S106$"+Replace this use of System.err by a logger.(‡Ù„ıÿÿÿÿ8ŠÈÍË1
+L	java:S106("+Replace this use of System.out by a logger.(Á‚ıÿÿÿÿ8¤ÈÍË1
+L	java:S106h"+Replace this use of System.out by a logger.(Ûøò”ùÿÿÿÿ8½ÈÍË1
+Š
+java:S1130Š"lRemove the declaration of thrown exception 'java.io.IOException', as it cannot be thrown from method's body.(Ë²¨î8ÈÈÍË1
+e
+java:S1874"BRemove this use of "X509V3CertificateGenerator"; it is deprecated.(‰¡ÜÇşÿÿÿÿ8ÊÈÍË1
+e
+java:S1874"BRemove this use of "X509V3CertificateGenerator"; it is deprecated.(‰¡ÜÇşÿÿÿÿ8ÎÈÍË1
+v
+java:S6201Ä"XReplace this instanceof check and cast with 'instanceof X509Certificate x509Certificate'(±Ğ ´8ãÈÍË1
+R
+java:S1874È"4Remove this use of "getSubjectDN"; it is deprecated.(·ÚæÛ8åÈÍË1
+Q
+java:S1874É"3Remove this use of "getIssuerDN"; it is deprecated.(äÓ÷‚8æÈÍË1
+V
+java:S1874Û"3Remove this use of "getIssuerDN"; it is deprecated.(©Œ­úÿÿÿÿ8òÈÍË1
+H
+java:S2116Ü"%Use "Arrays.toString(array)" instead.(¶êë„øÿÿÿÿ8õÈÍË1
+H
+java:S2116İ"%Use "Arrays.toString(array)" instead.(“œ‹øÿÿÿÿ8öÈÍË1
+H
+java:S2116à"%Use "Arrays.toString(array)" instead.(Îö‘úüÿÿÿÿ8ùÈÍË1
+H
+java:S2116á"%Use "Arrays.toString(array)" instead.(äİŠºúÿÿÿÿ8úÈÍË1
+W
+java:S1874¥"4Remove this use of "getSubjectDN"; it is deprecated.(üâßìûÿÿÿÿ8Ê†ÉÍË1
+V
+java:S1874¦"3Remove this use of "getIssuerDN"; it is deprecated.(²œ’Èøÿÿÿÿ8Í†ÉÍË1
+H	java:S106¼"+Replace this use of System.out by a logger.(ßÂ¤›8Ù†ÉÍË1
+H	java:S106¾"+Replace this use of System.out by a logger.(åÙŸ8Û†ÉÍË1
+M	java:S106œ"+Replace this use of System.out by a logger.(˜•·èûÿÿÿÿ8ÊõÉÍË1
+K
+java:S1128"/Remove this unused import 'java.sql.Timestamp'.(èò½+8“ËÕÍË1

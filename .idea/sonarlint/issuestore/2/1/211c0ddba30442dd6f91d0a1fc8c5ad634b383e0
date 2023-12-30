@@ -1,0 +1,15 @@
+
+J
+java:S1604R"(Make this anonymous inner class a lambda(Æµ¿ûùÿÿÿÿ8ªáõĞË1
+O
+java:S1199&"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ8¬áõĞË1
+~
+java:S1450w"\Remove the "getFileButton" field and declare it as a local variable in the relevant methods.(äß£—øÿÿÿÿ8ÆáõĞË1
+r
+java:S1450v"URemove the "label1" field and declare it as a local variable in the relevant methods.(ÛŠ’Á8ÆáõĞË1
+w
+java:S1450x"URemove the "label2" field and declare it as a local variable in the relevant methods.(äÈ„Áûÿÿÿÿ8ÆáõĞË1
+R
+java:S1128"0Remove this unused import 'java.io.IOException'.(ªº»Úıÿÿÿÿ8³í÷ĞË1
+e
+java:S1128"CRemove this unused import 'java.security.GeneralSecurityException'.(À×öÏıÿÿÿÿ8³í÷ĞË1

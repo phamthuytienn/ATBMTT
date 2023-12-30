@@ -1,0 +1,60 @@
+
+f
+java:S1192Ğ"HDefine a constant instead of duplicating this literal "Thiáº¿u" 6 times.(À¨İ¡8ÓÛåÎË1
+F
+java:S1604"(Make this anonymous inner class a lambda(Ô›£‰8ÔÛåÎË1
+F
+java:S1604¹"(Make this anonymous inner class a lambda(Ç¾Ø8ÔÛåÎË1
+K
+java:S1604Ù"(Make this anonymous inner class a lambda(Ò«Ú“úÿÿÿÿ8ÔÛåÎË1
+?
+java:S1643ó"Use a StringBuilder instead.(ˆÉ×¼øÿÿÿÿ8ÕÛåÎË1
+v
+java:S1104í"XMake keyStorePath a static final constant or non-public and provide accessors if needed.(À‰«8ÕÛåÎË1
+O
+java:S11992"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ8ÖÛåÎË1
+p	java:S116û"SRename this field "OrgLabel" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(×èñÆ8ñÛåÎË1
+s	java:S116€"WRename this field "OrgTextField" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¡¸îr8ñÛåÎË1
+u	java:S116"XRename this field "CityTextField" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ùÀ¶ì8ñÛåÎË1
+x	java:S116‚"\Rename this field "FullNameTextField" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(£•àh8ñÛåÎË1
+z	java:S116ƒ"XRename this field "WardTextField" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(„ÛåØüÿÿÿÿ8ñÛåÎË1
+{	java:S116„"_Rename this field "CountryCodeTextField" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ş¤¼'8ñÛåÎË1
+u
+java:S1450û"WRemove the "OrgLabel" field and declare it as a local variable in the relevant methods.(×èñÆ8÷ÛåÎË1
+•
+java:S1450†"rRemove the "chooseDirectoryToSaveKeyStoreButton" field and declare it as a local variable in the relevant methods.(±‰¸¾øÿÿÿÿ8øÛåÎË1
+}
+java:S1450Š"ZRemove the "clearButton" field and declare it as a local variable in the relevant methods.(úñ•“şÿÿÿÿ8øÛåÎË1
+~
+java:S1450…"`Remove the "createCertificate" field and declare it as a local variable in the relevant methods.(ÄÕÃ8øÛåÎË1
+
+java:S1450ú"\Remove the "fullNameLabel" field and declare it as a local variable in the relevant methods.(¨õşÿÿÿÿÿ8ùÛåÎË1
+s
+java:S1450ü"URemove the "label3" field and declare it as a local variable in the relevant methods.(æøÕÄ8ùÛåÎË1
+x
+java:S1450ı"URemove the "label4" field and declare it as a local variable in the relevant methods.(ª†´Œüÿÿÿÿ8ùÛåÎË1
+s
+java:S1450ş"URemove the "label5" field and declare it as a local variable in the relevant methods.(—¡¸‘8úÛåÎË1
+r
+java:S1450ÿ"URemove the "label6" field and declare it as a local variable in the relevant methods.(¢×08úÛåÎË1
+u
+java:S1450‡"WRemove the "password" field and declare it as a local variable in the relevant methods.(óôáş8úÛåÎË1
+t
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 36 to the 15 allowed.(ü·úÿÿÿÿ8şÛåÎË1
+M	java:S106°"+Replace this use of System.out by a logger.(›ùßÆıÿÿÿÿ8¥ÜåÎË1
+M	java:S106µ"+Replace this use of System.out by a logger.(›ùßÆıÿÿÿÿ8¥ÜåÎË1
+[
+java:S1117Â"=Rename "password" which hides the field declared at line 263.(âÆæà8¨ÜåÎË1
+J
+java:S1125Ã"'Remove the unnecessary boolean literal.(‚…ÓÍøÿÿÿÿ8¨ÜåÎË1
+J
+java:S1125Ä"'Remove the unnecessary boolean literal.(‡Ä›îÿÿÿÿÿ8¨ÜåÎË1
+E
+java:S1125Å"'Remove the unnecessary boolean literal.(‰Æ¾Š8©ÜåÎË1
+J
+java:S1125Æ"'Remove the unnecessary boolean literal.(ÓÏ¬”úÿÿÿÿ8©ÜåÎË1
+E
+java:S1125Ç"'Remove the unnecessary boolean literal.(¶¦–´8ªÜåÎË1
+J
+java:S1125È"'Remove the unnecessary boolean literal.(×øõ¥şÿÿÿÿ8ªÜåÎË1
+Y	java:S125É"<This block of commented-out lines of code should be removed.(ŒÃ€Í8«ÜåÎË1

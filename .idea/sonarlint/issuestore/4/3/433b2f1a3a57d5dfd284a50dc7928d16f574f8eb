@@ -1,0 +1,36 @@
+
+>
+java:S1604r"(Make this anonymous inner class a lambda(·½º
+D
+java:S1604‰"(Make this anonymous inner class a lambda(Ò«Ú“úÿÿÿÿ
+?
+java:S1604•"(Make this anonymous inner class a lambda(§É†
+D
+java:S1604¤"(Make this anonymous inner class a lambda(ËÊÎ™ıÿÿÿÿ
+3
+java:S1643µ"Use a StringBuilder instead.(±ßÂş
+H
+java:S1199%"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ
+a
+java:S2583¾"CChange this condition so that it does not always evaluate to "true"(óïß»8¾¹ı¤Ë1
+Z
+java:S1659"DDeclare "keyPath" and all following declarations on a separate line.(Ã³’Ş
+v
+java:S1450Ñ"ZRemove the "clearButton" field and declare it as a local variable in the relevant methods.(úñ•“şÿÿÿÿ
+l
+java:S1450Ì"URemove the "label1" field and declare it as a local variable in the relevant methods.(ÛŠ’Á
+q
+java:S1450Ï"URemove the "label4" field and declare it as a local variable in the relevant methods.(ª†´Œüÿÿÿÿ
+~
+java:S1450Ò"gRemove the "selectCSVDirectoryButton" field and declare it as a local variable in the relevant methods.(ûÙÅ€
+~
+java:S1450Í"gRemove the "selectKeystoreFileButton" field and declare it as a local variable in the relevant methods.(‹À®§
+v
+java:S1450Ğ"ZRemove the "splitButton" field and declare it as a local variable in the relevant methods.(­¥ı‹üÿÿÿÿ
+F	java:S106·"+Replace this use of System.out by a logger.(¡—¿¯şÿÿÿÿ
+^	java:S125º"<This block of commented-out lines of code should be removed.(¿Å›ëüÿÿÿÿ8ô¹ı¤Ë1
+^	java:S125¼"<This block of commented-out lines of code should be removed.(äî‡ûÿÿÿÿ8ô¹ı¤Ë1
+>
+java:S1125¾"'Remove the unnecessary boolean literal.(óïß»
+A
+java:S1068"+Remove this unused "keyPath" private field.(Ã³’Ş

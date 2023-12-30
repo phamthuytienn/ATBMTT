@@ -1,0 +1,19 @@
+
+>
+java:S1604B"(Make this anonymous inner class a lambda(ÖãºÂ
+H
+java:S1199 "-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ
+u
+java:S1450Y"ZRemove the "loginButton" field and declare it as a local variable in the relevant methods.(¢ÏÃöıÿÿÿÿ
+w
+java:S1450X"\Remove the "loginPINLabel" field and declare it as a local variable in the relevant methods.(€Îï¸ûÿÿÿÿ
+<
+java:S1659E"&Declare "password" on a separate line.(ÑÄ¸‘
+C
+java:S1481E"-Remove this unused "username" local variable.(ÑÄ¸‘
+@
+java:S2116G"%Use "Arrays.toString(array)" instead.(€¡‡Èıÿÿÿÿ
+=
+java:S1125J"'Remove the unnecessary boolean literal.(œ®µ‡
+F
+java:S1068\"+Remove this unused "message" private field.(œêÿ–øÿÿÿÿ

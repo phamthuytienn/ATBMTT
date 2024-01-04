@@ -4,25 +4,31 @@
 
 package org.example.view.view;
 
-
 import javax.swing.*;
 import javax.swing.GroupLayout;
 import javax.swing.filechooser.FileFilter;
+
+import org.example.view.helper.Cer;
+
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.InputStream;
 
 /**
  * @author howl
  */
 public class SplitKeyStoreToKeyAndCSR extends JPanel {
-    private String keyStorePath, keyPath, csrPath;
-    public SplitKeyStoreToKeyAndCSR() {
-        initComponents();
-    }
+	private String keyStorePath, keyPath, csrPath;
 
-    private void initComponents() {
-        // JFormDesigner - Component initialization - DO NOT MODIFY  //GEN-BEGIN:initComponents  @formatter:off
+	public SplitKeyStoreToKeyAndCSR() {
+		initComponents();
+	}
+
+	private void initComponents() {
+		// JFormDesigner - Component initialization - DO NOT MODIFY  //GEN-BEGIN:initComponents  @formatter:off
         panel1 = new JPanel();
         label1 = new JLabel();
         selectKeystoreFileButton = new JButton();
@@ -183,10 +189,15 @@ public class SplitKeyStoreToKeyAndCSR extends JPanel {
                     System.out.println(inputPassword);
                 }
 
-//                PDFDigitalSigning check = new PDFDigitalSigning();
                 boolean checkExport = true;
-//                        check.exportCertificate(keyStorePath, csrPath, inputPassword);
-
+                try {
+                	InputStream inputStream = 	Cer.exportCSR(new FileInputStream(keyStorePath), inputPassword);
+					Cer.saveInputStreamToFile(inputStream, csrPath);
+				} catch (FileNotFoundException e1) {
+					System.out.println(e1.getMessage());
+	                 checkExport = false;
+				}
+                
                 if(checkExport == true) {
                     JOptionPane.showMessageDialog(getPanel(),"Thành công, vui lòng kiểm tra file Certificate trong đường dẫn đã nhập");
 
@@ -196,10 +207,9 @@ public class SplitKeyStoreToKeyAndCSR extends JPanel {
             }
         });
         // JFormDesigner - End of component initialization  //GEN-END:initComponents  @formatter:on
-    }
+	}
 
-
-    // JFormDesigner - Variables declaration - DO NOT MODIFY  //GEN-BEGIN:variables  @formatter:off
+	// JFormDesigner - Variables declaration - DO NOT MODIFY  //GEN-BEGIN:variables  @formatter:off
     private JPanel panel1;
     private JLabel label1;
     private JButton selectKeystoreFileButton;
@@ -211,7 +221,7 @@ public class SplitKeyStoreToKeyAndCSR extends JPanel {
     private JLabel csrDirectoryLabel;
     // JFormDesigner - End of variables declaration  //GEN-END:variables  @formatter:on
 
-    public JPanel getPanel() {
-        return panel1;
-    }
+	public JPanel getPanel() {
+		return panel1;
+	}
 }

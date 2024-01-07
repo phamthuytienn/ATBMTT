@@ -6,10 +6,13 @@ package org.example.view.view;
 
 import javax.swing.*;
 import javax.swing.GroupLayout;
+import javax.swing.border.LineBorder;
+import javax.swing.border.TitledBorder;
 import javax.swing.filechooser.FileFilter;
 
 import org.example.view.helper.Cer;
 
+import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.io.File;
@@ -41,6 +44,11 @@ public class SplitKeyStoreToKeyAndCSR extends JPanel {
 
         //======== panel1 ========
         {
+            selectCSVDirectoryButton.setBackground(Color.white);
+            splitButton.setBackground(Color.white);
+            clearButton.setBackground(Color.white);
+            selectKeystoreFileButton.setBackground(Color.white);
+
 
             //---- label1 ----
             label1.setText("Ch\u1ecdn File ch\u1eef k\u00fd c\u1ea7n t\u00e1ch");
@@ -64,6 +72,12 @@ public class SplitKeyStoreToKeyAndCSR extends JPanel {
             csrDirectoryLabel.setText("");
 
             GroupLayout panel1Layout = new GroupLayout(panel1);
+            panel1.setBackground(Color.pink);
+            LineBorder lineBorder = new LineBorder(Color.GRAY, 2);
+
+            // Tạo TitledBorder với màu xám và độ dày là 2 pixel
+            TitledBorder titledBorder = BorderFactory.createTitledBorder(lineBorder, "Tạo File Certificate từ file chữ kỹ", TitledBorder.CENTER, TitledBorder.TOP);
+            panel1.setBorder(titledBorder);
             panel1.setLayout(panel1Layout);
             panel1Layout.setHorizontalGroup(
                 panel1Layout.createParallelGroup()

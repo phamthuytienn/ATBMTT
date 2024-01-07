@@ -7,7 +7,10 @@ package org.example.view.view;
 
 import javax.swing.*;
 import javax.swing.GroupLayout;
+import javax.swing.border.LineBorder;
+import javax.swing.border.TitledBorder;
 import javax.swing.filechooser.FileFilter;
+import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.io.File;
@@ -75,84 +78,98 @@ public class GenerateKeystoreScreen extends JPanel {
 
             //---- clearButton ----
             clearButton.setText("Xo\u00e1 th\u00f4ng tin ");
+            clearButton.setBackground(Color.WHITE);
+            chooseDirectoryToSaveKeyStoreButton.setBackground(Color.WHITE);
+createCertificate.setBackground(Color.WHITE);
+
 
             GroupLayout panel1Layout = new GroupLayout(panel1);
+
+            panel1.setBackground(Color.pink);
+            LineBorder lineBorder = new LineBorder(Color.GRAY, 2);
+
+            // Tạo TitledBorder với màu xám và độ dày là 2 pixel
+            TitledBorder titledBorder = BorderFactory.createTitledBorder(lineBorder, "Tạo chữ ký", TitledBorder.CENTER, TitledBorder.TOP);
+            panel1.setBorder(titledBorder);
+            panel1.setLayout(panel1Layout);
+            panel1.setBorder(titledBorder);
             panel1.setLayout(panel1Layout);
             panel1Layout.setHorizontalGroup(
-                panel1Layout.createParallelGroup()
-                    .addGroup(panel1Layout.createSequentialGroup()
-                        .addGap(26, 26, 26)
-                        .addGroup(panel1Layout.createParallelGroup()
-                            .addComponent(createCertificate, GroupLayout.PREFERRED_SIZE, 101, GroupLayout.PREFERRED_SIZE)
-                            .addComponent(chooseDirectoryToSaveKeyStoreButton)
-                            .addGroup(panel1Layout.createParallelGroup(GroupLayout.Alignment.LEADING, false)
-                                .addGroup(panel1Layout.createSequentialGroup()
-                                    .addComponent(clearButton)
-                                    .addPreferredGap(LayoutStyle.ComponentPlacement.RELATED, GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                    .addComponent(directoryLabel, GroupLayout.DEFAULT_SIZE, 293, Short.MAX_VALUE))
-                                .addGroup(panel1Layout.createSequentialGroup()
+                    panel1Layout.createParallelGroup()
+                            .addGroup(panel1Layout.createSequentialGroup()
+                                    .addGap(26, 26, 26)
                                     .addGroup(panel1Layout.createParallelGroup()
-                                        .addGroup(panel1Layout.createSequentialGroup()
-                                            .addComponent(label5)
-                                            .addPreferredGap(LayoutStyle.ComponentPlacement.RELATED)
-                                            .addComponent(label6))
-                                        .addComponent(label3)
-                                        .addComponent(label4)
-                                        .addComponent(OrgLabel)
-                                        .addComponent(fullNameLabel)
-                                        .addComponent(password))
-                                    .addGap(18, 18, 18)
-                                    .addGroup(panel1Layout.createParallelGroup(GroupLayout.Alignment.LEADING, false)
-                                        .addComponent(FullNameTextField, GroupLayout.DEFAULT_SIZE, 303, Short.MAX_VALUE)
-                                        .addComponent(OrgTextField, GroupLayout.DEFAULT_SIZE, 303, Short.MAX_VALUE)
-                                        .addComponent(CityTextField, GroupLayout.DEFAULT_SIZE, 303, Short.MAX_VALUE)
-                                        .addComponent(CountryCodeTextField, GroupLayout.DEFAULT_SIZE, 303, Short.MAX_VALUE)
-                                        .addComponent(WardTextField, GroupLayout.DEFAULT_SIZE, 303, Short.MAX_VALUE)
-                                        .addComponent(passwordField, GroupLayout.DEFAULT_SIZE, 303, Short.MAX_VALUE)))))
-                        .addContainerGap(300, Short.MAX_VALUE))
+                                            .addComponent(createCertificate, GroupLayout.PREFERRED_SIZE, 101, GroupLayout.PREFERRED_SIZE)
+                                            .addComponent(chooseDirectoryToSaveKeyStoreButton)
+                                            .addGroup(panel1Layout.createParallelGroup(GroupLayout.Alignment.LEADING, false)
+                                                    .addGroup(panel1Layout.createSequentialGroup()
+                                                            .addComponent(clearButton)
+                                                            .addPreferredGap(LayoutStyle.ComponentPlacement.RELATED, GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                                            .addComponent(directoryLabel, GroupLayout.DEFAULT_SIZE, 233, Short.MAX_VALUE))
+                                                    .addGroup(panel1Layout.createSequentialGroup()
+                                                            .addGroup(panel1Layout.createParallelGroup()
+                                                                    .addGroup(panel1Layout.createSequentialGroup()
+                                                                            .addComponent(label5)
+                                                                            .addPreferredGap(LayoutStyle.ComponentPlacement.RELATED)
+                                                                            .addComponent(label6))
+                                                                    .addComponent(label3)
+                                                                    .addComponent(label4)
+                                                                    .addComponent(OrgLabel)
+                                                                    .addComponent(fullNameLabel)
+                                                                    .addComponent(password))
+                                                            .addGap(18, 18, 18)
+                                                            .addGroup(panel1Layout.createParallelGroup(GroupLayout.Alignment.LEADING, false)
+                                                                    .addComponent(FullNameTextField, GroupLayout.DEFAULT_SIZE, 303, Short.MAX_VALUE)
+                                                                    .addComponent(OrgTextField, GroupLayout.DEFAULT_SIZE, 303, Short.MAX_VALUE)
+                                                                    .addComponent(CityTextField, GroupLayout.DEFAULT_SIZE, 303, Short.MAX_VALUE)
+                                                                    .addComponent(CountryCodeTextField, GroupLayout.DEFAULT_SIZE, 303, Short.MAX_VALUE)
+                                                                    .addComponent(WardTextField, GroupLayout.DEFAULT_SIZE, 303, Short.MAX_VALUE)
+                                                                    .addComponent(passwordField, GroupLayout.DEFAULT_SIZE, 303, Short.MAX_VALUE)))))
+                                    .addContainerGap(300, Short.MAX_VALUE))
             );
             panel1Layout.setVerticalGroup(
-                panel1Layout.createParallelGroup()
-                    .addGroup(panel1Layout.createSequentialGroup()
-                        .addGap(26, 26, 26)
-                        .addGroup(panel1Layout.createParallelGroup(GroupLayout.Alignment.BASELINE)
-                            .addComponent(fullNameLabel)
-                            .addComponent(FullNameTextField, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE))
-                        .addGap(18, 18, 18)
-                        .addGroup(panel1Layout.createParallelGroup(GroupLayout.Alignment.BASELINE)
-                            .addComponent(OrgLabel)
-                            .addComponent(OrgTextField, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE))
-                        .addGap(18, 18, 18)
-                        .addGroup(panel1Layout.createParallelGroup(GroupLayout.Alignment.BASELINE)
-                            .addComponent(label3)
-                            .addComponent(CityTextField, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE))
-                        .addGap(10, 10, 10)
-                        .addGroup(panel1Layout.createParallelGroup(GroupLayout.Alignment.BASELINE)
-                            .addComponent(WardTextField, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE)
-                            .addComponent(label4))
-                        .addGap(18, 18, 18)
-                        .addGroup(panel1Layout.createParallelGroup(GroupLayout.Alignment.TRAILING)
+                    panel1Layout.createParallelGroup()
                             .addGroup(panel1Layout.createSequentialGroup()
-                                .addComponent(label6)
-                                .addGap(22, 22, 22))
-                            .addGroup(panel1Layout.createParallelGroup(GroupLayout.Alignment.BASELINE)
-                                .addComponent(CountryCodeTextField, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE)
-                                .addComponent(label5)))
-                        .addGap(26, 26, 26)
-                        .addGroup(panel1Layout.createParallelGroup(GroupLayout.Alignment.BASELINE)
-                            .addComponent(password)
-                            .addComponent(passwordField, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE))
-                        .addGap(23, 23, 23)
-                        .addGroup(panel1Layout.createParallelGroup()
-                            .addComponent(directoryLabel)
-                            .addGroup(panel1Layout.createSequentialGroup()
-                                .addComponent(clearButton)
-                                .addGap(28, 28, 28)
-                                .addComponent(chooseDirectoryToSaveKeyStoreButton)))
-                        .addGap(18, 18, 18)
-                        .addComponent(createCertificate)
-                        .addContainerGap(30, Short.MAX_VALUE))
+                                    .addGap(26, 26, 26)
+                                    .addGroup(panel1Layout.createParallelGroup(GroupLayout.Alignment.BASELINE)
+                                            .addComponent(fullNameLabel)
+                                            .addComponent(FullNameTextField, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE))
+                                    .addGap(18, 18, 18)
+                                    .addGroup(panel1Layout.createParallelGroup(GroupLayout.Alignment.BASELINE)
+                                            .addComponent(OrgLabel)
+                                            .addComponent(OrgTextField, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE))
+                                    .addGap(18, 18, 18)
+                                    .addGroup(panel1Layout.createParallelGroup(GroupLayout.Alignment.BASELINE)
+                                            .addComponent(label3)
+                                            .addComponent(CityTextField, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE))
+                                    .addGap(10, 10, 10)
+                                    .addGroup(panel1Layout.createParallelGroup(GroupLayout.Alignment.BASELINE)
+                                            .addComponent(WardTextField, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE)
+                                            .addComponent(label4))
+                                    .addGap(18, 18, 18)
+                                    .addGroup(panel1Layout.createParallelGroup(GroupLayout.Alignment.TRAILING)
+                                            .addGroup(panel1Layout.createSequentialGroup()
+                                                    .addComponent(label6)
+                                                    .addGap(22, 22, 22))
+                                            .addGroup(panel1Layout.createParallelGroup(GroupLayout.Alignment.BASELINE)
+                                                    .addComponent(CountryCodeTextField, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE)
+                                                    .addComponent(label5)))
+                                    .addGap(26, 26, 26)
+                                    .addGroup(panel1Layout.createParallelGroup(GroupLayout.Alignment.BASELINE)
+                                            .addComponent(password)
+                                            .addComponent(passwordField, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE))
+                                    .addGap(23, 23, 23)
+                                    .addGroup(panel1Layout.createParallelGroup()
+                                            .addComponent(directoryLabel)
+                                            .addGroup(panel1Layout.createSequentialGroup()
+                                                    .addComponent(chooseDirectoryToSaveKeyStoreButton)
+                                                    .addGap(28, 28, 28)
+                                                    .addComponent(clearButton)))
+                                    .addGap(18, 18, 18)
+                                    .addComponent(createCertificate)
+                                    .addContainerGap(30, Short.MAX_VALUE))
             );
+
         }
         chooseDirectoryToSaveKeyStoreButton.addActionListener(new ActionListener() {
             @Override

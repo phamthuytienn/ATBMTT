@@ -28,6 +28,7 @@ public class View {
 //        aboutMenu = new JMenu();
         splitKeystoreFileMenu = new JMenuItem();
         mainPanel = new JPanel();
+
         createKeyStoreMenuItem = new JMenuItem();
         verifyFile = new JMenuItem();
         changePin = new JMenuItem();
@@ -36,6 +37,7 @@ public class View {
         {
             mainFrame.setTitle("Ph\u1ea7n m\u1ec1m k\u00fd s\u1ed1");
             mainFrame.setLayout(new BorderLayout());
+
 
             //======== menuPanel ========
             {
@@ -126,9 +128,8 @@ public class View {
             mainFrame.pack();
             mainFrame.setLocationRelativeTo(null);
             mainFrame.setVisible(true);
-            mainFrame.setSize(600,400);
+            mainFrame.setSize(800,600);
             mainFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-
         }
 
         // JFormDesigner - End of component initialization  //GEN-END:initComponents  @formatter:on

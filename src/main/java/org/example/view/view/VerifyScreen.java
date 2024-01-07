@@ -7,7 +7,10 @@ package org.example.view.view;
 
 import javax.swing.*;
 import javax.swing.GroupLayout;
+import javax.swing.border.LineBorder;
+import javax.swing.border.TitledBorder;
 import javax.swing.filechooser.FileFilter;
+import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.io.File;
@@ -36,7 +39,7 @@ public class VerifyScreen extends JPanel {
 
         //======== verifyPanel ========
         {
-
+            getFileButton.setBackground(Color.white);
             //---- label1 ----
             label1.setText("Ch\u1ecdn file c\u1ea7n ki\u1ec3m tra:");
 
@@ -47,6 +50,13 @@ public class VerifyScreen extends JPanel {
             label2.setText("Tr\u1ea1ng th\u00e1i:");
 
             GroupLayout panel1Layout = new GroupLayout(verifyPanel);
+
+            verifyPanel.setBackground(Color.pink);
+            LineBorder lineBorder = new LineBorder(Color.GRAY, 2);
+
+            // Tạo TitledBorder với màu xám và độ dày là 2 pixel
+            TitledBorder titledBorder = BorderFactory.createTitledBorder(lineBorder, "Kiểm tra trạng thái của file", TitledBorder.CENTER, TitledBorder.TOP);
+            verifyPanel.setBorder(titledBorder);
             verifyPanel.setLayout(panel1Layout);
             panel1Layout.setHorizontalGroup(
                 panel1Layout.createParallelGroup()

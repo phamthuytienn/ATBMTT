@@ -4,7 +4,10 @@ package org.example.view.view;
 
 import javax.swing.*;
 import javax.swing.GroupLayout;
+import javax.swing.border.LineBorder;
+import javax.swing.border.TitledBorder;
 import javax.swing.filechooser.FileFilter;
+import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.io.File;
@@ -39,6 +42,11 @@ public class DigitalSignatureScreen extends JPanel {
 
         //======== DigitalSignaturePanel ========
         {
+            chooseFileButton.setBackground(Color.WHITE);
+            chooseKeyStoreButton.setBackground(Color.WHITE);
+            signButton.setBackground(Color.WHITE);
+            removeInfoButton.setBackground(Color.WHITE);
+
 
             //---- chooseFileLabel ----
             chooseFileLabel.setText("L\u1ea5y File c\u1ea7n k\u00fd");
@@ -66,6 +74,13 @@ public class DigitalSignatureScreen extends JPanel {
 
             GroupLayout DigitalSignaturePanelLayout = new GroupLayout(DigitalSignaturePanel);
             DigitalSignaturePanel.setLayout(DigitalSignaturePanelLayout);
+            DigitalSignaturePanel.setBackground(Color.pink);
+            LineBorder lineBorder = new LineBorder(Color.GRAY, 2);
+
+            // Tạo TitledBorder với màu xám và độ dày là 2 pixel
+            TitledBorder titledBorder = BorderFactory.createTitledBorder(lineBorder, "Digital Signature", TitledBorder.CENTER, TitledBorder.TOP);
+            DigitalSignaturePanel.setBorder(titledBorder);
+
             DigitalSignaturePanelLayout.setHorizontalGroup(
                     DigitalSignaturePanelLayout.createParallelGroup()
                             .addGroup(DigitalSignaturePanelLayout.createSequentialGroup()

@@ -6,6 +6,9 @@ package org.example.view.view;
 
 import javax.swing.*;
 import javax.swing.GroupLayout;
+import javax.swing.border.LineBorder;
+import javax.swing.border.TitledBorder;
+import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.io.FileInputStream;
@@ -43,7 +46,8 @@ public class ChangePINScreen extends JPanel {
         selectedFilePath.setEditable(false);
         //======== panel1 ========
         {
-
+            chooseFileButton.setBackground(Color.white);
+            applyNewPINButton.setBackground(Color.white);
             //---- oldPINLabel ----
             oldPINLabel.setText("Nh\u1eadp PIN c\u0169:");
 
@@ -119,6 +123,12 @@ public class ChangePINScreen extends JPanel {
             });
 
             GroupLayout panel1Layout = new GroupLayout(panel1);
+            panel1.setBackground(Color.pink);
+            LineBorder lineBorder = new LineBorder(Color.GRAY, 2);
+
+            // Tạo TitledBorder với màu xám và độ dày là 2 pixel
+            TitledBorder titledBorder = BorderFactory.createTitledBorder(lineBorder, "Đổi Password Cer", TitledBorder.CENTER, TitledBorder.TOP);
+            panel1.setBorder(titledBorder);
             panel1.setLayout(panel1Layout);
             panel1Layout.setHorizontalGroup(panel1Layout.createParallelGroup().addGroup(panel1Layout.createSequentialGroup().addGap(32, 32, 32).addGroup(panel1Layout.createParallelGroup().addGroup(panel1Layout.createSequentialGroup().addComponent(newPINLabel).addGap(18, 18, 18).addComponent(newPINTextField, GroupLayout.PREFERRED_SIZE, 199, GroupLayout.PREFERRED_SIZE).addContainerGap(201, Short.MAX_VALUE)).addGroup(panel1Layout.createSequentialGroup().addComponent(oldPINLabel).addGap(18, 18, 18).addComponent(oldPINTextField, GroupLayout.DEFAULT_SIZE, 199, Short.MAX_VALUE).addGap(206, 206, 206)).addGroup(panel1Layout.createSequentialGroup().addGroup(panel1Layout.createParallelGroup().addComponent(applyNewPINButton).addGroup(panel1Layout.createSequentialGroup().addComponent(retypeNewPINLabel).addGap(18, 18, 18).addComponent(retypeNewPINTextField, GroupLayout.PREFERRED_SIZE, 200, GroupLayout.PREFERRED_SIZE))).addGap(0, 185, Short.MAX_VALUE)).addGroup(GroupLayout.Alignment.TRAILING, panel1Layout.createSequentialGroup().addGroup(panel1Layout.createParallelGroup().addComponent(selectedFilePath, GroupLayout.Alignment.TRAILING).addComponent(chooseFileButton, GroupLayout.Alignment.TRAILING)).addGap(176, 176, 176)))));
             panel1Layout.setVerticalGroup(panel1Layout.createParallelGroup().addGroup(panel1Layout.createSequentialGroup().addGap(30, 30, 30).addGroup(panel1Layout.createParallelGroup(GroupLayout.Alignment.BASELINE).addComponent(oldPINLabel).addComponent(oldPINTextField, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE)).addGap(24, 24, 24).addGroup(panel1Layout.createParallelGroup(GroupLayout.Alignment.BASELINE).addComponent(newPINLabel).addComponent(newPINTextField, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE)).addGap(25, 25, 25).addGroup(panel1Layout.createParallelGroup(GroupLayout.Alignment.BASELINE).addComponent(retypeNewPINLabel).addComponent(retypeNewPINTextField, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE)).addGap(18, 18, 18).addComponent(applyNewPINButton).addPreferredGap(LayoutStyle.ComponentPlacement.UNRELATED).addComponent(chooseFileButton).addPreferredGap(LayoutStyle.ComponentPlacement.RELATED).addComponent(selectedFilePath).addContainerGap(12, Short.MAX_VALUE)));
